@@ -1,7 +1,7 @@
 import * as Location from "expo-location";
 
 import { Alert, Button, StyleSheet, Text, View } from "react-native";
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { COLORS } from "../constants";
 import MapPreview from "./MapPreview";

@@ -6,10 +6,8 @@ import MapScreen from "../screens/MapScreen";
 import NewPlaceScreen from "../screens/NewPlaceScreen";
 import PlaceDetailScreen from "../screens/PlaceDetailScreen";
 import PlaceListScreen from "../screens/PlaceListScreen";
-import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-// screens
 
 const PlaceStack = createNativeStackNavigator();
 
