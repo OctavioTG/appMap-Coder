@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "appsMap",
-    "slug": "appsMap",
+    "slug": "appmap",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.octaviotg.appmap"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3cd23446-3255-4859-ae3a-a8329c5cf9db"
+      }
+    },
+    "owner": "octaviotg",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3cd23446-3255-4859-ae3a-a8329c5cf9db"
     }
   }
 }
